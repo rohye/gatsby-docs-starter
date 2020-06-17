@@ -38,8 +38,6 @@
 
 # Usage
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/justinformentin/gatsby-v2-tutorial-starter)
-
 ```bash
 Download project
 # With `gatsby-cli`
