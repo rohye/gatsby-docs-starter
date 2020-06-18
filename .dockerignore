@@ -1,4 +1,7 @@
 .cache/
 node_modules/
-public/
+config/
+content/
+src/
+static/
 package-lock.json

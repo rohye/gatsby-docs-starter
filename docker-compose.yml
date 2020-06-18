@@ -1,0 +1,9 @@
+version: "3"
+
+services: 
+  rohye-docs:
+    image: rohye-docs
+    container_name: rohye-docs
+    restart: always
+    ports: 
+      - 3001:80
