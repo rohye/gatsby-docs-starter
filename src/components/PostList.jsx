@@ -12,10 +12,10 @@ const Wrapper = styled.article`
   border-radius: ${props => props.theme.borderRadius.default};
   box-shadow: ${props => props.theme.shadow.feature.small.default};
   transition: ${props => props.theme.transitions.boom.transition};
-  height: 17rem;
-  flex-basis: calc(99.9% * 1 / 3 - 2.5rem);
-  max-width: calc(99.9% * 1 / 3 - 2.5rem);
-  width: calc(99.9% * 1 / 3 - 2.5rem);
+  height: 14rem;
+  flex-basis: calc(99.9% * 1 / 4 - 2.5rem);
+  max-width: calc(99.9% * 1 / 4 - 2.5rem);
+  width: calc(99.9% * 1 / 4 - 2.5rem);
 
   &:hover {
     box-shadow: ${props => props.theme.shadow.feature.small.hover};
@@ -37,7 +37,7 @@ const Wrapper = styled.article`
   }
 `;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled.a`
   position: absolute;
   top: 0;
   left: 0;
