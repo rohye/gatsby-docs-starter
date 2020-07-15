@@ -110,9 +110,9 @@ const PostList = ({ cover, path, date, title, excerpt }) => (
     <Image>
       <Img fluid={cover} />
     </Image>
-    <StyledLink href={path}>
+    <StyledLink href={path} target="_blank">
       <Info>
-        <span>{date}</span>
+        {/* <span>{date}</span> */}
         <Title>{title}</Title>
         <span>{excerpt}</span>
       </Info>
